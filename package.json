@@ -1,0 +1,24 @@
+{
+  "name": "new-movie-api-rafa-simas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafaelsimas/new-movie-api-rafa-simas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafaelsimas/new-movie-api-rafa-simas/issues"
+  },
+  "homepage": "https://github.com/Rafaelsimas/new-movie-api-rafa-simas#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
