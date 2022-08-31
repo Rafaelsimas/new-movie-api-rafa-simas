@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Rafaelsimas/new-movie-api-rafa-simas#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "nodemon": "^2.0.19"
   }
