@@ -1,10 +1,12 @@
 const express = require('express')
-const server = express()
+const app = express()
 const filmes = require('./src/data/filmes.json')
 
-server.get('/filmes', (req, res) =>{
+const port = process.env.PORT || 3000
+
+app.get('/filmes', (req, res) =>{
     return res.json(filmes)
 })
-server.listen(3000, () => {
-    console.log('Servidor rodando')
+app.listen(port, () => {
+    console.log(`Aplicação rodando na http://localhost:${port}`)
 })
